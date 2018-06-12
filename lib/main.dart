@@ -102,6 +102,8 @@ class _MyHomePageState extends State<MyHomePage> {
                         }
                       }
                       String description = document.body.text.trim();
+                      //print(description);
+                      
                       return new Container(
                         padding:
                             const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 8.0),
@@ -155,7 +157,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                       .of(context)
                                       .push(new MaterialPageRoute<Null>(
                                     builder: (BuildContext context) {
-                                      return PostView(description);
+                                      return PostView(Post['title'],description,imgUrl);
                                     },
                                   ));
                                 },
