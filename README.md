@@ -1,6 +1,10 @@
 # blogger
 
-A new Flutter project.
+TO RUN THIS DO FOLLOWING CHANGES
+
+- IN main.dart ->
+
+ PASTE YOUR API KEY AND BLOGGER ID ON LINE - 42
 
 ## Getting Started
 
